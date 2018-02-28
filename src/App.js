@@ -43,21 +43,18 @@ class App extends Component {
       <section className="parallax-scrolling" id="bio">
         <h2 id="bio-title">Bio</h2>
         <p className="bio-text">
-        Tyler Imbrey’s Ghost Revue is an Americana Rock band created in Colorado 2015. 
-        They have been recognized for their unique blend of thoughtful, authentic song-craft 
-        and momentous live performances.</p>
-
-        <p className="bio-text">Formed in Denver, they have enjoyed being a part of a burgeoning hometown music 
-        scene as well as getting on the road to play in the UK, House of Blues Chicago, 
-        and many unique Rocky mountain dates. Their debut LP record was released September 
-        1st at the Syntax Physic Opera to room full of friends and fans. </p>
-
-        <p className="bio-text">Prior to TIGR, Tyler performed and recorded throughout the East Coast and Midwest 
-        developing his songwriting craft. His songs have been featured in indie films and 
-        on several viral BuzzFeed videos. Through the addition of "The Ghost Revue", Imbrey's 
-        songwriting is surrounded with a rich, full-bodied accompaniment enhancing his distinct 
-        style of storytelling which has already attracted millions of listeners.</p>
-        {/* <p id="lets-rage">It's jazz.</p> */}
+        Mentally projecting from Seattle, Washington, Kate Dinsmore delivers a scorching
+                            combination of thrash metal and acapella roots jazz blended with the sublime
+                            musical sensibilites of early 1920's New Orleans zydeco.  Versed
+                            on multiple instruments including guitar, jawharp, and Chevy Malibu, Kate makes every
+                            show a painstaking endeavor of the heart, a fact that shines through the
+                            music, public nudity, and multiple lawsuits. With new songs, new mugshots, 
+                            and a new concept album inspired by the Shawshank Redemption and its sequel,
+                            Bad Boys II, 2018 is looking to be a big year for Kate. Check the tour page 
+                            for dates in your area, and don't miss the only
+                            artist who can shatter your pelvis with only her voice and two shots of
+                            Jameson.</p>
+        <p id="lets-rage">It's jazz.</p>
       </section>
 
       <section className="parallax-scrolling" id="music">
