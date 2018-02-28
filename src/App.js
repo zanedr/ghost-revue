@@ -45,14 +45,14 @@ class App extends Component {
         <p className="bio-text">
         Tyler Imbrey’s Ghost Revue is an Americana Rock band created in Colorado 2015. 
         They have been recognized for their unique blend of thoughtful, authentic song-craft 
-        and momentous live performances.
+        and momentous live performances.</p>
 
-        Formed in Denver, they have enjoyed being a part of a burgeoning hometown music 
+        <p className="bio-text">Formed in Denver, they have enjoyed being a part of a burgeoning hometown music 
         scene as well as getting on the road to play in the UK, House of Blues Chicago, 
         and many unique Rocky mountain dates. Their debut LP record was released September 
-        1st at the Syntax Physic Opera to room full of friends and fans. 
+        1st at the Syntax Physic Opera to room full of friends and fans. </p>
 
-        Prior to TIGR, Tyler performed and recorded throughout the East Coast and Midwest 
+        <p className="bio-text">Prior to TIGR, Tyler performed and recorded throughout the East Coast and Midwest 
         developing his songwriting craft. His songs have been featured in indie films and 
         on several viral BuzzFeed videos. Through the addition of "The Ghost Revue", Imbrey's 
         songwriting is surrounded with a rich, full-bodied accompaniment enhancing his distinct 
