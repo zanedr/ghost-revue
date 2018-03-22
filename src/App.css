@@ -45,10 +45,15 @@ body {
   color: white;
 }
 
+.small-photo {
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+}
+
 .photo {
   position: absolute;
-  width: 100vw;
-  /* right: 0; */
+  display: none;
   bottom: 0;
 }
 
@@ -273,6 +278,16 @@ h2 {
   .montu-logo {
     margin-left: -300px;
     width: 600px;
+  }
+
+  .photo {
+    width: 100vw;
+    right: 0;
+    display: inline;
+  }
+
+  .small-photo {
+    display: none;
   }
 
   #main-menu-social {

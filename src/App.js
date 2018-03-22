@@ -31,7 +31,8 @@ class App extends Component {
             <h3 className="animated fadeInDown main-title">
                 Ghost Revue
             </h3>
-            <img alt="band members" src={require('./images/ghostrevue-bw-cleaner-clipped.png')} className="animated fadeIn photo" />
+              <img alt="band members" src={require('./images/ghostrevue-bw-cleaner-clipped.png')} className="animated fadeIn photo" />
+              <img alt="band members" src={require('./images/ghostrevue-bw-cleaner-small.png')} className="animated fadeIn small-photo" />
         </div>
       </section>
 
@@ -43,18 +44,10 @@ class App extends Component {
       <section className="parallax-scrolling" id="bio">
         <h2 id="bio-title">Bio</h2>
         <p className="bio-text">
-        Mentally projecting from Seattle, Washington, Kate Dinsmore delivers a scorching
-                            combination of thrash metal and acapella roots jazz blended with the sublime
-                            musical sensibilites of early 1920's New Orleans zydeco.  Versed
-                            on multiple instruments including guitar, jawharp, and Chevy Malibu, Kate makes every
-                            show a painstaking endeavor of the heart, a fact that shines through the
-                            music, public nudity, and multiple lawsuits. With new songs, new mugshots, 
-                            and a new concept album inspired by the Shawshank Redemption and its sequel,
-                            Bad Boys II, 2018 is looking to be a big year for Kate. Check the tour page 
-                            for dates in your area, and don't miss the only
-                            artist who can shatter your pelvis with only her voice and two shots of
-                            Jameson.</p>
-        <p id="lets-rage">It's jazz.</p>
+            Ghost Revue is a kick ass band created in Colorado 2015. 
+            They have been recognized for their unique blend of thoughtful, 
+            authentic song-craft and momentous live performances.</p>
+        <p id="lets-rage">If I knew how to read this would mean something.</p>
       </section>
 
       <section className="parallax-scrolling" id="music">
