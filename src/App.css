@@ -281,7 +281,18 @@ h2 {
   }
 
   .photo {
-    width: 100vw;
+    height: calc(100vh - 100px);
+    right: calc(50vw - 45vh);
+    display: inline;
+  }
+
+  .main-title {
+    top: calc(30vh + 22px);
+    left: calc(50vw - 104px);
+  }
+
+  .photo {
+    height: calc(100vh - 100px);
     right: 0;
     display: inline;
   }
@@ -351,7 +362,13 @@ h2 {
 @media screen and (min-width: 1300px) {
   .main-title {
     top: calc(50vh + 22px);
-    left: 5vw;
+    left: 10vw;
+  }
+
+  .photo {
+    height: calc(100vh - 100px);
+    right: none;
+    display: inline;
   }
 }
 
