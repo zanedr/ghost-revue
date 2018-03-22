@@ -46,7 +46,7 @@ class App extends Component {
         <p className="bio-text">
             Ghost Revue is a kick ass band created in Colorado 2015. 
             They have been recognized for their unique blend of thoughtful, 
-            authentic song-craft and momentous live performances.</p>
+            authentic ass kicking and momentous live performances.</p>
         <p id="lets-rage">If I knew how to read this would mean something.</p>
       </section>
 

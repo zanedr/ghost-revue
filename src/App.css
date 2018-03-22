@@ -113,7 +113,7 @@ h2 {
 }
 
 #bio {
-    background-image: url("images/ghostrevue.jpeg");
+    /* background-image: url("images/ghostrevue.jpeg"); */
     background-position: center top;
     height: 850px;
     margin: 0 auto;
