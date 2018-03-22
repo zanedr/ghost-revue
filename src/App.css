@@ -54,7 +54,7 @@ body {
 .logo {
   width: 300px;
   position: absolute;
-  top: 50px;
+  top: 150px;
   left: calc(50vw - 150px);
 }
 
@@ -256,6 +256,13 @@ h2 {
       width: 100%;
     }
 
+    .logo {
+      width: 300px;
+      position: absolute;
+      top: 50px;
+      left: calc(50vw - 150px);
+    }
+
     .montu-logo {
       top: 20vh;
       left: 50%;
@@ -287,10 +294,10 @@ h2 {
     width: 600px;
   }
 
-  .logo {
+  /* .logo {
     top: calc(50vh - 109px);
     left: calc(50vw - 150px);
-  }
+  } */
 
   .photo {
     width: 100vw;
@@ -353,6 +360,13 @@ h2 {
   }
 }
 
+@media screen and (min-width: 1000px) {
+  .logo {
+    top: calc(50vh - 109px);
+    left: calc(50vw - 150px);
+  }
+}
+
 @media screen and (min-width: 1300px) {
   .main-title {
     top: calc(50vh + 22px);
@@ -361,7 +375,7 @@ h2 {
 
   .logo {
     position: absolute;
-    left: 5vw;
+    left: 10vw;
   }
 
   .photo {
