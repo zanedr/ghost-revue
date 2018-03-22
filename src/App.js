@@ -28,9 +28,10 @@ class App extends Component {
             <a className="menu-links" id="main-menu-contact" href="#contact">contact</a>
           </div>
         <div className="main-title-container">
-            <h3 className="animated fadeInDown main-title">
+            {/* <h3 className="animated fadeInDown main-title">
                 Ghost Revue
-            </h3>
+            </h3> */}
+            <img src={require('./images/ghostlogo.png')} className="animated fadeInDown logo" />
               <img alt="band members" src={require('./images/ghostrevue-bw-cleaner.png')} className="animated fadeIn photo" />
               <img alt="band members" src={require('./images/ghostrevue-bw-cleaner-small.png')} className="animated fadeIn small-photo" />
         </div>

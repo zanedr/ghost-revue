@@ -51,6 +51,13 @@ body {
   bottom: 0;
 }
 
+.logo {
+  width: 300px;
+  position: absolute;
+  top: 50px;
+  left: calc(50vw - 150px);
+}
+
 .photo {
   position: absolute;
   display: none;
@@ -280,21 +287,22 @@ h2 {
     width: 600px;
   }
 
+  .logo {
+    top: calc(50vh - 109px);
+    left: calc(50vw - 150px);
+  }
+
   .photo {
-    height: calc(100vh - 100px);
-    right: calc(50vw - 45vh);
+    width: 100vw;
+    /* right: calc(50vw - 45vh); */
+    margin: 100px calc(50vw - 45vh) 0 0;
     display: inline;
+    /* position: static; */
   }
 
   .main-title {
     top: calc(30vh + 22px);
     left: calc(50vw - 104px);
-  }
-
-  .photo {
-    height: calc(100vh - 100px);
-    right: 0;
-    display: inline;
   }
 
   .small-photo {
@@ -345,6 +353,27 @@ h2 {
   }
 }
 
+@media screen and (min-width: 1300px) {
+  .main-title {
+    top: calc(50vh + 22px);
+    left: 10vw;
+  }
+
+  .logo {
+    position: absolute;
+    left: 5vw;
+  }
+
+  .photo {
+    width: auto;
+    position: absolute;
+    height: calc(100vh - 100px);
+    right: 0;
+    margin: 0;
+    bottom: 0;
+  }
+}
+
 
 
 /* @media screen and (min-width: 1000px) {
@@ -358,19 +387,6 @@ h2 {
     padding: 15px 2.5%;
   }
 */
-
-@media screen and (min-width: 1300px) {
-  .main-title {
-    top: calc(50vh + 22px);
-    left: 10vw;
-  }
-
-  .photo {
-    height: calc(100vh - 100px);
-    right: none;
-    display: inline;
-  }
-}
 
   /* #tour, #bio, #music {
     height: 1000px;
