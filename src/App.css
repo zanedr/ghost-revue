@@ -38,8 +38,8 @@ body {
 
 .main-title {
   position: absolute;
-  bottom: calc(45vh - 22px);
-  left: 20vw;
+  left: calc(50vw - 104px);
+  top: 150px;
   font-size: 36px;
   font-weight: 200;
   color: white;
@@ -47,9 +47,9 @@ body {
 
 .photo {
   position: absolute;
-  width: 300px;
-  left: 35vw;
-  bottom: calc(50vh - 150px);
+  width: 100vw;
+  /* right: 0; */
+  bottom: 0;
 }
 
 #main-menu {
@@ -231,7 +231,7 @@ h2 {
 }
 
 .music-player {
-  width: 700px;
+  width: 90vw;
 }
 
 @media screen and (min-width: 500px) {
@@ -283,6 +283,10 @@ h2 {
     z-index: 12;
   }
 
+  .music-player {
+    width: 700px;
+  }
+
   .menu-social-icon {
     margin: 0 5px;
     height: 15px;
@@ -315,6 +319,8 @@ h2 {
   }
 }
 
+
+
 /* @media screen and (min-width: 1000px) {
   .hidden-tunes-2 {
     display: inline-block;
@@ -325,13 +331,19 @@ h2 {
   .menu-links {
     padding: 15px 2.5%;
   }
-
+*/
 
 @media screen and (min-width: 1300px) {
-  #tour, #bio, #music {
+  .main-title {
+    top: calc(50vh + 22px);
+    left: 5vw;
+  }
+}
+
+  /* #tour, #bio, #music {
     height: 1000px;
   }
-
+  
   #contact {
     height: 650px;
   }
@@ -354,11 +366,11 @@ h2 {
 
   .hidden-tunes-3 {
     display: inline-block;
-  }
-} */
+  } */
+/* } */
 
-@media screen and (max-width: 600px) { 
+/* @media screen and (max-width: 600px) { 
   .main-title {
     top: 20vh;
   }
-}
+} */

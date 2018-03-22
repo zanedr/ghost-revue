@@ -12,13 +12,13 @@ class App extends Component {
           {/* <img className="montu-logo" src={require("./images/MONTUcolortransparent.png")}/> */}
           <div id="main-menu-social">
             <a className="main-social-links" href="https://www.facebook.com/tigrdenver">
-              <img className="menu-social-icon" src={require("./images/facebookwhite.svg")}/>
+              <img alt="facebook link" className="menu-social-icon" src={require("./images/facebookwhite.svg")}/>
             </a>
             <a className="main-social-links" href="https://twitter.com/horseysurprise">
-              <img className="menu-social-icon" src={require("./images/twitterwhite.svg")}/>
+              <img alt="twitter link" className="menu-social-icon" src={require("./images/twitterwhite.svg")}/>
             </a>
             <a className="main-social-links" href="https://www.instagram.com/katedinsmoremusic/">
-              <img className="menu-social-icon" src={require("./images/instagramwhite.svg")}/>
+              <img alt="instagram link" className="menu-social-icon" src={require("./images/instagramwhite.svg")}/>
             </a>
           </div>
           <div id="main-menu">
@@ -31,7 +31,7 @@ class App extends Component {
             <h3 className="animated fadeInDown main-title">
                 Ghost Revue
             </h3>
-            {/* <img src={require('./images/rhizoid.png')} className="animated fadeIn photo" /> */}
+            <img alt="band members" src={require('./images/ghostrevue-bw-cleaner-clipped.png')} className="animated fadeIn photo" />
         </div>
       </section>
 
@@ -62,7 +62,7 @@ class App extends Component {
         <div id="music-spacer"></div>
         <section id="music-container">
         </section>
-        <iframe width="100%" height="265" scrolling="no" frameborder="no" src="https://www.reverbnation.com/widget_code/html_widget/artist_515710?widget_id=55&pwc[included_songs]=1&context_type=page_object&spoid=musician_682975&pwc[size]=small&pwc[color]=dark&pwc[branded]=1" className="music-player"></iframe>
+        <iframe title="music-player" width="100%" height="265" scrolling="no" frameBorder="no" src="https://www.reverbnation.com/widget_code/html_widget/artist_515710?widget_id=55&pwc[included_songs]=1&context_type=page_object&spoid=musician_682975&pwc[size]=small&pwc[color]=dark&pwc[branded]=1" className="music-player"></iframe>
         <p className="music-text">
           <a className="music-links" href="https://www.reverbnation.com/tylerimbrey">For more tunes click here</a>
         </p>
@@ -76,16 +76,16 @@ class App extends Component {
           </p>
           <div id="social-icon-container">'
             <a className="contact-links" href="https://www.facebook.com/tigrdenver/">
-              <img className="social-icon" src={require("./images/facebook.svg")}/>
+              <img alt="facebook link" className="social-icon" src={require("./images/facebook.svg")}/>
             </a>
             <a className="contact-links" href="https://twitter.com/horseysurprise">
-              <img className="social-icon" src={require("./images/twitter.svg")}/>
+              <img alt="twitter link" className="social-icon" src={require("./images/twitter.svg")}/>
             </a>
             <a className="contact-links" href="https://www.instagram.com/katedinsmoremusic/">
-              <img className="social-icon" src={require("./images/instagram.svg")}/>
+              <img alt="instagram link" className="social-icon" src={require("./images/instagram.svg")}/>
             </a>
             <a className="contact-links" href="mailto:ghostrevue@gmail.com">
-              <img className="social-icon" src={require("./images/mail.svg")}/>
+              <img alt="email" className="social-icon" src={require("./images/mail.svg")}/>
             </a>
           </div>
       </section>
