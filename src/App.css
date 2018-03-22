@@ -54,7 +54,7 @@ body {
 .logo {
   width: 300px;
   position: absolute;
-  top: 150px;
+  top: 75px;
   left: calc(50vw - 150px);
 }
 
