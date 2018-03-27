@@ -31,7 +31,8 @@ class App extends Component {
             {/* <h3 className="animated fadeInDown main-title">
                 Ghost Revue
             </h3> */}
-            <img src={require('./images/ghostlogo.png')} className="animated fadeInDown logo" />
+            <img alt="badass ghost revue logo" src={require('./images/GLogo.svg')} className="animated fadeInDown logo logoG" />
+            <img alt="badass ghost revue logo" src={require('./images/RLogo.svg')} className="animated fadeInDown logo logoR" />
               <img alt="band members" src={require('./images/ghostrevue-bw-cleaner.png')} className="animated fadeIn photo" />
               <img alt="band members" src={require('./images/ghostrevue-bw-cleaner-small.png')} className="animated fadeIn small-photo" />
         </div>
@@ -45,8 +46,8 @@ class App extends Component {
       <section className="parallax-scrolling" id="bio">
         <h2 id="bio-title">Bio</h2>
         <p className="bio-text">
-            Ghost Revue is a kick ass band created in Colorado 2015. 
-            They have been recognized for their unique blend of thoughtful, 
+            Ghost Revue is a kick ass band created in Colorado 2015.
+            They have been recognized for their unique blend of thoughtful,
             authentic ass kicking and momentous live performances.</p>
         <p id="lets-rage">If I knew how to read this would mean something.</p>
       </section>
