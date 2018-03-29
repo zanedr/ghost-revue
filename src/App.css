@@ -395,12 +395,12 @@ h2 {
 
 .logoR {
   animation-duration: 3s;
-  animation-name: flyingR[];
+  animation-name: flyinR;
 }
 
 @keyframes flyinG {
   from {
-    margin-left: 400%;
+    margin-left: 600%;
     width: 300%;
   }
 
@@ -408,9 +408,10 @@ h2 {
     margin-left: 0%;
     /* width: 100%; */
   }
-}@keyframes flyinR {
+}
+@keyframes flyinR {
   from {
-    margin-right: 400%;
+    margin-left: -600%;
     width: 300%;
   }
 

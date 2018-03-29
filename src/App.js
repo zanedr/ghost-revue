@@ -31,8 +31,8 @@ class App extends Component {
             {/* <h3 className="animated fadeInDown main-title">
                 Ghost Revue
             </h3> */}
-            <img alt="badass ghost revue logo" src={require('./images/GLogo.svg')} className="animated fadeInDown logo logoG" />
-            <img alt="badass ghost revue logo" src={require('./images/RLogo.svg')} className="animated fadeInDown logo logoR" />
+            <img alt="badass ghost revue logo" src={require('./images/GLogo.svg')} className="logo logoG" />
+            <img alt="badass ghost revue logo" src={require('./images/RLogo.svg')} className="logo logoR" />
               <img alt="band members" src={require('./images/ghostrevue-bw-cleaner.png')} className="animated fadeIn photo" />
               <img alt="band members" src={require('./images/ghostrevue-bw-cleaner-small.png')} className="animated fadeIn small-photo" />
         </div>
