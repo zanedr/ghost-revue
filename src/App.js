@@ -45,12 +45,21 @@ class App extends Component {
 
       <section className="parallax-scrolling" id="bio">
         <h2 id="bio-title">Bio</h2>
-        <p className="bio-text">
-            Ghost Revue is a kick ass band created in Colorado 2015.
-            They have been recognized for their unique blend of thoughtful,
-            authentic ass kicking and momentous live performances.</p>
-        <p id="lets-rage">If I knew how to read this would mean something.</p>
+        <p id="lets-rage">
+        Extra spice in the dish. A touch of whiskey in the drink. The sublime satisfaction of having rocked out.
+        Ghost Revue leaves every member of the audience with high energy and good times.  From the UK to LA, back
+        home in Denver, Ghost Revue is proud to bring its signature authenticity
+        and high energy 'killer live performances' <a href="https://303magazine.com/2018/02/new-denver-music/" target="_blank" rel="noopener noreferrer">(Symone Roque - 303 Magazine)</a> to audiences anywhere.
+        <br></br>
+        Featuring 'a monster group of musicians'  <a href="http://www.westword.com/event/tyler-imbrey-and-the-ghost-review-8265032" target="_blank" rel="noopener noreferrer">(Rebecca Berlin - Westword)</a> and led by veteran songwriter Tyler Imbrey,
+        Ghost Revue has found themselves in film soundtracks, 'best of' lists, and viral videos.
+        Created in Colorado 2015, they have been recognized for their unique blend of thoughtful,
+        authentic ass kicking and momentous live performances.
+        </p>
+        <p className="bio-text"></p>
       </section>
+
+
 
       <section className="parallax-scrolling" id="music">
         <h2 id="music-title">Music</h2>
@@ -65,8 +74,7 @@ class App extends Component {
 
       <section className="parallax-scrolling" id="contact">
         <h2 id="contact-title">Contact</h2>
-          <p className="contact-text">For booking inquiries, comments, suggestions, or
-          scalped Bon Jovi tickets, contact
+          <p className="contact-text">For booking inquiries, comments, suggestions, or tickets, contact
             <a className="contact-links" href="mailto:ghostrevue@gmail.com"> GhostRevue@gmail.com</a>
           </p>
           <div id="social-icon-container">'
