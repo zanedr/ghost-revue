@@ -45,10 +45,16 @@ class App extends Component {
       <section className="parallax-scrolling" id="bio">
         <h2 id="bio-title">Bio</h2>
         <p className="bio-text">
-            Ghost Revue is a kick ass band created in Colorado 2015. 
-            They have been recognized for their unique blend of thoughtful, 
-            authentic ass kicking and momentous live performances.</p>
-        <p id="lets-rage">If I knew how to read this would mean something.</p>
+            Extra spice in the dish. A touch of whiskey in the drink. The sublime 
+            satisfaction of having rocked out. Ghost Revue leaves every member of 
+            the audience with high energy and good times.  From the UK to LA, to 
+            home again in Denver, this Colorado band is proud to bring it’s signature 
+            authenticity and high energy <i>‘killer live performances’ (-303 Magazine) </i>  
+             to audiences anywhere..</p>
+          <p className="bio-text">Featuring <i>‘a monster group of musicians’ (-Westword)</i> and 
+          led by veteran songwriter Tyler Imbrey, Ghost Revue has found themselves in 
+          film soundtracks, ‘best of’ lists, and viral videos.  Currently, their 
+          looking for a way to your heart.</p>
       </section>
 
       <section className="parallax-scrolling" id="music">
@@ -65,7 +71,7 @@ class App extends Component {
       <section className="parallax-scrolling" id="contact">
         <h2 id="contact-title">Contact</h2>
           <p className="contact-text">For booking inquiries, comments, suggestions, or
-          scalped Bon Jovi tickets, contact
+          recipes, contact
             <a className="contact-links" href="mailto:ghostrevue@gmail.com"> GhostRevue@gmail.com</a>
           </p>
           <div id="social-icon-container">'
