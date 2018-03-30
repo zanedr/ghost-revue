@@ -388,7 +388,38 @@ h2 {
   }
 }
 
+.logoG {
+  animation-duration: 3s;
+  animation-name: flyinG;
+}
 
+.logoR {
+  animation-duration: 3s;
+  animation-name: flyinR;
+}
+
+@keyframes flyinG {
+  from {
+    margin-left: 600%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    /* width: 100%; */
+  }
+}
+@keyframes flyinR {
+  from {
+    margin-left: -600%;
+    width: 300%;
+  }
+
+  to {
+    margin-right: 0%;
+    /* width: 100%; */
+  }
+}
 
 /* @media screen and (min-width: 1000px) {
   .hidden-tunes-2 {
@@ -405,7 +436,7 @@ h2 {
   /* #tour, #bio, #music {
     height: 1000px;
   }
-  
+
   #contact {
     height: 650px;
   }
@@ -431,7 +462,7 @@ h2 {
   } */
 /* } */
 
-/* @media screen and (max-width: 600px) { 
+/* @media screen and (max-width: 600px) {
   .main-title {
     top: 20vh;
   }

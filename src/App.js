@@ -31,7 +31,8 @@ class App extends Component {
             {/* <h3 className="animated fadeInDown main-title">
                 Ghost Revue
             </h3> */}
-            <img src={require('./images/ghostlogo.png')} className="animated fadeInDown logo" />
+            <img alt="badass ghost revue logo" src={require('./images/GLogo.svg')} className="logo logoG" />
+            <img alt="badass ghost revue logo" src={require('./images/RLogo.svg')} className="logo logoR" />
               <img alt="band members" src={require('./images/ghostrevue-bw-cleaner.png')} className="animated fadeIn photo" />
               <img alt="band members" src={require('./images/ghostrevue-bw-cleaner-small.png')} className="animated fadeIn small-photo" />
         </div>
@@ -49,13 +50,15 @@ class App extends Component {
             satisfaction of having rocked out. Ghost Revue leaves every member of 
             the audience with high energy and good times.  From the UK to LA, to 
             home again in Denver, this Colorado band is proud to bring it’s signature 
-            authenticity and high energy <i>‘killer live performances’ (-303 Magazine) </i>  
+            authenticity and high energy <i>‘killer live performances’ <a href="https://303magazine.com/2018/02/new-denver-music/" target="_blank" rel="noopener noreferrer">(Symone Roque - 303 Magazine)</a></i>  
              to audiences anywhere..</p>
-          <p className="bio-text">Featuring <i>‘a monster group of musicians’ (-Westword)</i> and 
+          <p className="bio-text">Featuring <i>‘a monster group of musicians’ <a href="http://www.westword.com/event/tyler-imbrey-and-the-ghost-review-8265032" target="_blank" rel="noopener noreferrer">(Rebecca Berlin - Westword)</a></i> and 
           led by veteran songwriter Tyler Imbrey, Ghost Revue has found themselves in 
           film soundtracks, ‘best of’ lists, and viral videos.  Currently, their 
           looking for a way to your heart.</p>
       </section>
+
+
 
       <section className="parallax-scrolling" id="music">
         <h2 id="music-title">Music</h2>
@@ -70,8 +73,7 @@ class App extends Component {
 
       <section className="parallax-scrolling" id="contact">
         <h2 id="contact-title">Contact</h2>
-          <p className="contact-text">For booking inquiries, comments, suggestions, or
-          recipes, contact
+          <p className="contact-text">For booking inquiries, comments, suggestions, or tickets, contact
             <a className="contact-links" href="mailto:ghostrevue@gmail.com"> GhostRevue@gmail.com</a>
           </p>
           <div id="social-icon-container">'
