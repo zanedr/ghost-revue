@@ -9,7 +9,6 @@ class App extends Component {
         <link href="https://fonts.googleapis.com/css?family=Raleway:200,400" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200" rel="stylesheet"/>
         <section className="parallax-scrolling" id="header">
-          {/* <img className="montu-logo" src={require("./images/MONTUcolortransparent.png")}/> */}
           <div id="main-menu-social">
             <a className="main-social-links" href="https://www.facebook.com/tigrdenver">
               <img alt="facebook link" className="menu-social-icon" src={require("./images/facebookwhite.svg")}/>
@@ -28,37 +27,37 @@ class App extends Component {
             <a className="menu-links" id="main-menu-contact" href="#contact">contact</a>
           </div>
         <div className="main-title-container">
-            {/* <h3 className="animated fadeInDown main-title">
-                Ghost Revue
-            </h3> */}
             <img alt="badass ghost revue logo" src={require('./images/GLogo.svg')} className="logo logoG" />
             <img alt="badass ghost revue logo" src={require('./images/RLogo.svg')} className="logo logoR" />
               <img alt="band members" src={require('./images/ghostrevue-bw-cleaner.png')} className="animated fadeIn photo" />
-              <img alt="band members" src={require('./images/ghostrevue-bw-cleaner-small.png')} className="animated fadeIn small-photo" />
+              <img alt="band members" src={require('./images/ghostrevue-bw-cleaner-small.svg')} className="animated fadeIn small-photo" />
         </div>
-      </section>
-
-      <section className="parallax-scrolling" id="tour">
-        <h2 id="tour-title">Shows</h2>
-
       </section>
 
       <section className="parallax-scrolling" id="bio">
         <h2 id="bio-title">Bio</h2>
         <p className="bio-text">
-            Extra spice in the dish. A touch of whiskey in the drink. The sublime 
-            satisfaction of having rocked out. Ghost Revue leaves every member of 
-            the audience with high energy and good times.  From the UK to LA, to 
-            home again in Denver, this Colorado band is proud to bring it’s signature 
-            authenticity and high energy <i>‘killer live performances’ <a href="https://303magazine.com/2018/02/new-denver-music/" target="_blank" rel="noopener noreferrer">(Symone Roque - 303 Magazine)</a></i>  
+            Extra spice in the dish. A touch of whiskey in the drink. The sublime
+            satisfaction of having rocked out. Ghost Revue leaves every member of
+            the audience with high energy and good times.  From the UK to LA, to
+            home again in Denver, this Colorado band is proud to bring it’s signature
+            authenticity and high energy <i>‘killer live performances’ <a href="https://303magazine.com/2018/02/new-denver-music/" target="_blank" rel="noopener noreferrer">(Symone Roque - 303 Magazine)</a></i>
              to audiences anywhere..</p>
-          <p className="bio-text">Featuring <i>‘a monster group of musicians’ <a href="http://www.westword.com/event/tyler-imbrey-and-the-ghost-review-8265032" target="_blank" rel="noopener noreferrer">(Rebecca Berlin - Westword)</a></i> and 
-          led by veteran songwriter Tyler Imbrey, Ghost Revue has found themselves in 
-          film soundtracks, ‘best of’ lists, and viral videos.  Currently, their 
+          <p className="bio-text">Featuring <i>‘a monster group of musicians’ <a href="http://www.westword.com/event/tyler-imbrey-and-the-ghost-review-8265032" target="_blank" rel="noopener noreferrer">(Rebecca Berlin - Westword)</a></i> and
+          led by veteran songwriter Tyler Imbrey, Ghost Revue has found themselves in
+          film soundtracks, ‘best of’ lists, and viral videos.  Currently, their
           looking for a way to your heart.</p>
       </section>
 
-
+      <hr> 
+      </hr>
+      <section className="parallax-scrolling" id="tour">
+        <h2 id="tour-title">Shows</h2>
+        <div className="widget_iframe widget-container">
+          <iframe title="tour-dates" className="widget_iframe tour-widget" src="https://www.reverbnation.com/widget_code/html_widget/artist_515710?widget_id=52&pwc[design]=default&pwc[background_color]=%23333333&pwc[layout]=detailed&pwc[show_map]=0%2C1&pwc[size]=fit" width="100%" height="100%" frameborder="0" scrolling="no">
+          </iframe>
+        </div>
+      </section>
 
       <section className="parallax-scrolling" id="music">
         <h2 id="music-title">Music</h2>
@@ -73,17 +72,17 @@ class App extends Component {
 
       <section className="parallax-scrolling" id="contact">
         <h2 id="contact-title">Contact</h2>
-          <p className="contact-text">For booking inquiries, comments, suggestions, or tickets, contact
+          <p className="contact-text">For booking inquiries, comments, or tickets, contact
             <a className="contact-links" href="mailto:ghostrevue@gmail.com"> GhostRevue@gmail.com</a>
           </p>
           <div id="social-icon-container">'
             <a className="contact-links" href="https://www.facebook.com/tigrdenver/">
               <img alt="facebook link" className="social-icon" src={require("./images/facebook.svg")}/>
             </a>
-            <a className="contact-links" href="https://twitter.com/horseysurprise">
+            {/* <a className="contact-links" href="https://twitter.com/horseysurprise">
               <img alt="twitter link" className="social-icon" src={require("./images/twitter.svg")}/>
-            </a>
-            <a className="contact-links" href="https://www.instagram.com/katedinsmoremusic/">
+            </a> */}
+            <a className="contact-links" href="https://www.instagram.com/ghostrevue/">
               <img alt="instagram link" className="social-icon" src={require("./images/instagram.svg")}/>
             </a>
             <a className="contact-links" href="mailto:ghostrevue@gmail.com">

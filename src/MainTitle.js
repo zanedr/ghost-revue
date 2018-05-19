@@ -10,7 +10,6 @@ export class MainTitle extends Component {
             <h2 className="animated fadeInDown title">
                 Ghost Revue
             </h2>
-            {/* <img src={require('./images/kate.png')} className="animated fadeIn photo" /> */}
         </span>
     )}
 }
