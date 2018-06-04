@@ -2,7 +2,7 @@
   "name": "ghost-review",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zanedr.github.io/ghost-revue/",
+  "homepage": "https://adamj1232.github.io/ghost-revue/",
   "dependencies": {
     "animejs": "^2.2.0",
     "d3": "^4.12.0",
