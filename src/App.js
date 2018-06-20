@@ -69,6 +69,17 @@ class App extends Component {
           <a className="music-links" href="https://www.reverbnation.com/tylerimbrey">For more tunes click here</a>
         </p>
       </section>
+      <section className="parallax-scrolling" id="videos">
+        <h2 id="music-title">Videos</h2>
+        <div className="video-container">
+          <iframe title="Lost My Head" className="music-videos" width="475" height="315" src="https://www.youtube.com/embed/Uirvehr3bG8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>        
+          <iframe title="Poison" className="music-videos" width="475" height="315" src="https://www.youtube.com/embed/SGxHRHNoBCM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe title="Old Car" className="music-videos" width="475" height="315" src="https://www.youtube.com/embed/N-rG8Dzwid4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe title="Light Out There" className="music-videos" width="475" height="315" src="https://www.youtube.com/embed/OvMS95ZlFfw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <p className="music-text">
+        </p>
+      </section>
 
       <section className="parallax-scrolling" id="contact">
         <h2 id="contact-title">Contact</h2>

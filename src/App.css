@@ -172,9 +172,14 @@ a {
 }
 
 #music {
-  /* background-image: url('images/ghostrevuemusic.jpg'); */
   background-image: url('images/ghostlive-cropped.jpg');
   height: 675px;
+  margin: 0;
+  text-align: center;
+}
+
+#videos {
+  background: black;
   margin: 0;
   text-align: center;
 }
@@ -203,9 +208,19 @@ a {
 .music-links {
   color: #ffffff;
   font-family: 'Titillium Web', sans-serif;
+  font-weight: 900;
   font-size: 26px;
-  margin-top: 20px;
   text-decoration: none;
+  background: #41455791;
+  background-color: #292828a3;
+  padding: 0px 10px;
+  border: 3px solid black;
+  border-radius: 25px;
+}
+
+.music-links:hover {
+  color: black;
+  background: #d4d4d485;
 }
 
 #contact {
@@ -262,6 +277,16 @@ a {
 
 .music-player {
   width: 90vw;
+}
+
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+iframe.music-videos {
+  margin: 30px;
 }
 
 @media screen and (min-width: 500px) {
